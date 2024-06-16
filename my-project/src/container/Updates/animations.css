@@ -1,0 +1,36 @@
+/* animations.css */
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-from-left {
+    animation: slideInFromLeft 0.8s ease-in-out forwards;
+  }
+  
+  .slide-in-from-right {
+    animation: slideInFromRight 0.8s ease-in-out forwards;
+  }
+  
+  /* Ensure the font style for elegant handwriting */
+  .elegant-handwriting {
+    font-family: 'Dancing Script', cursive; /* Ensure you have included this font from Google Fonts or any other source */
+  }
+  
